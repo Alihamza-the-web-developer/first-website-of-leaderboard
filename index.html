@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hall of Coders - Home</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f6f8;
+      color: #2c3e50;
+      line-height: 1.8;
+    }
+
+    header {
+      background-color: #ffffff;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      padding: 10px 20px;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 1.4rem;
+      color: #3498db;
+    }
+
+    .container {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+    }
+
+    .container li a {
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    .container li a:hover {
+      color: #3498db;
+    }
+
+    main {
+      padding: 30px 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 12px;
+      border: 2px solid #2c3e50;
+      border-radius: 20px;
+      color: #000000;
+      background-color: #ecf0f1;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    .goldfish {
+      border: 2px solid black;
+      outline: 2px solid black;
+      border-radius: 32px;
+      text-align: center;
+      animation: ali 5s infinite ease-in-out alternate-reverse;
+    }
+
+    @keyframes ali {
+      0% { background-color: #000000; transform: translateX(20px); }
+      20% { background-color: #ffffff; }
+      50% { background-color: #3afa13; }
+      80% { background-color: #2980b9; }
+      100% { background-color: #2980b9; }
+    }
+
+    @media screen and (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .container {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <script src="script.js"></script>
+    <nav class="navbar">
+      <div class="logo">🏆 Hall of Coders</div>
+      <ul class="container">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="leaderboard.html">Leaderboard</a></li>
+        <li><a href="6th-leaderboard.html">6th-Leaderboard</a></li>
+        <li><a href="profile.html">Ali Hamza</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h1 class="goldfish">🏠 Welcome to the Hall of Coders</h1>
+      <p style="text-align:center; font-size: 1.05rem; background-color: #ffffff; padding: 20px; border-radius: 15px; border: 2px dashed #2980b9; box-shadow: 2px 2px 8px rgba(0,0,0,0.05);">
+        🎉 <strong>Celebrating young coding legends in Pakistan!</strong> 🇵🇰<br><br>
+        🌟 Explore who's leading the way in <span style="color:#3498db; font-weight:600">web development</span>,
+        <span style="color:#2ecc71; font-weight:600">programming</span>, and
+        <span style="color:#f39c12; font-weight:600">creative coding</span>!<br><br>
+
+        🏅 The Hall of Coders is not just a website – it's a symbol of <strong>dedication</strong>, <strong>creativity</strong>, and
+        <strong>brilliance</strong> in the world of technology. 🖥️💡<br><br>
+
+        👨‍🎓 It honors students who have shown remarkable skill in coding – from front-end design to backend logic.
+        This platform brings together the <strong>rising stars of Pakistan’s tech scene</strong>, starting from classrooms and
+        growing into future professionals. 🚀<br><br>
+
+        🧠 At the heart of this site is the idea that <em>age is not a limit</em> when it comes to brilliance. Even students in 8th grade,
+        like <span style="color:#8e44ad; font-weight:600">Ali Hamza</span> – who has mastered HTML, CSS, Python, and is rapidly learning JavaScript & Node.js –
+        are achieving incredible things. 💻🔥<br><br>
+
+        ⌨️ With a typing speed of <strong>221 WPM</strong>, Ali proves that talent and hard work outshine experience. 💪<br><br>
+
+        🧩 Every coder has a unique story. From small websites to full games and apps, this platform celebrates
+        each one — not based on age or class, but on <strong>passion, dedication, and skill</strong>. 💫<br><br>
+
+        🌐 As you explore the leaderboard and profiles, you'll discover skills like animation-heavy CSS, dynamic
+        JavaScript, backend logic, and even project design. All to inspire more students across Pakistan to
+        <span style="color:#16a085; font-weight:600">code</span>, <span style="color:#d35400; font-weight:600">compete</span>, and <span style="color:#c0392b; font-weight:600">collaborate</span>. 🤝💻<br><br>
+
+        🦾 In today's world, coding is not just a skill – it's a superpower. 🔥 With the right tools, mindset, and support,
+        every student can become a digital creator and problem solver. This site is a platform of hope, learning,
+        and motivation. 💡❤️<br><br>
+
+        📣 Whether you're a beginner or a pro, this community welcomes you. If you believe you have the fire
+        to become Pakistan’s next coding legend – you belong here. 💥<br><br>
+
+        🎓 Welcome to the <strong>Hall of Coders</strong> – where legends are born, grown, and celebrated! 🏆👨‍💻👩‍💻
+      </p>
+    </section>
+  </main>
+</body>
+
+</html>
